@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shijiedenghuo.github.io</id>
-    <title>世界灯火</title>
-    <updated>2019-08-16T16:21:13.083Z</updated>
+    <title>永不熄灭的世界灯火</title>
+    <updated>2019-08-16T16:21:42.579Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shijiedenghuo.github.io"/>
     <link rel="self" href="https://shijiedenghuo.github.io/atom.xml"/>
     <subtitle>可以卑微如尘土  不可扭曲如蛆虫</subtitle>
     <logo>https://shijiedenghuo.github.io/images/avatar.png</logo>
     <icon>https://shijiedenghuo.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, 世界灯火</rights>
+    <rights>All rights reserved 2019, 永不熄灭的世界灯火</rights>
     <entry>
         <title type="html"><![CDATA[滴滴：你随便自救，活下来算我输]]></title>
         <id>https://shijiedenghuo.github.io/post/001</id>
