@@ -1,160 +1,118 @@
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="robots" content="all,follow">
-<meta name="googlebot" content="index,follow,snippet,archive">
+  <head>
+    <meta charset="utf-8" >
+
 <title>被施暴后，所有人都在劝我要大度 | 永不熄灭的世界灯火</title>
-<link rel="shortcut icon" href="https://shijiedenghuo.github.io/favicon.ico?v=1565972501409">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link rel="stylesheet" href="https://shijiedenghuo.github.io/styles/main.css" type='text/css' media='all'>
+<meta name="description" content="可以卑微如尘土  不可扭曲如蛆虫">
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://backupadmin.github.io/favicon.ico?v=1566048882165">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://backupadmin.github.io/styles/main.css">
 
 
 
-</head>
-<body class="home blog ct-body standard">
-<div id="overflow-container" class="overflow-container">
-  <a class="skip-content" href="#main">Skip to content</a>
-  <header id="site-header" class="site-header" role="banner">
-    <div class='top-navigation top-navigation-important'>
-        <div class='container'>
-            <div id="menu-secondary" class="menu-container menu-secondary" role="navigation">
-                <button id="toggle-secondary-navigation" class="toggle-secondary-navigation"><i class="fa fa-plus"></i></button>
-                <div class="menu">
-                    <ul id="menu-secondary-items" class="menu-secondary-items">
-                        
-                        
-                            
-                        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-                            <a href="https://shijiedenghuo.github.io/tag/K-wheF921">时评</a>
-                        </li>
-                            
-                        
-                            
-                        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-                            <a href="https://shijiedenghuo.github.io/tag/2WJ1OtG4S">生活</a>
-                        </li>
-                            
-                        
-                    </ul>
-                </div>
-            </div>
-            <ul class="social-media-icons">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://backupadmin.github.io">
+        <img src="https://backupadmin.github.io/images/avatar.png?v=1566048882165" class="site-logo">
+        <h1 class="site-title">永不熄灭的世界灯火</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-
-    <div class="container">
-        <div id="title-info" class="title-info">
-            <div id='site-title' class='site-title'>
-                <a href="https://shijiedenghuo.github.io">  永不熄灭的世界灯火 </a>
-            </div>
-        </div>
-        <button id="toggle-navigation" class="toggle-navigation">
-            <i class="fa fa-bars"></i>
-        </button>
-        <div id="menu-primary-tracks" class="menu-primary-tracks"></div>
-        <div id="menu-primary" class="menu-container menu-primary" role="navigation">
-            <p class="site-description">可以卑微如尘土  不可扭曲如蛆虫</p>
-            <div class="menu">
-                <ul id="menu-primary-items" class="menu-primary-items">
-                     
-                        
-                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
-                                <a href="/">首页</a>
-                            </li>
-                        
-                    
-                        
-                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
-                                <a href="/archives">归档</a>
-                            </li>
-                        
-                    
-                        
-                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
-                                <a href="/tags">标签</a>
-                            </li>
-                        
-                    
-                        
-                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
-                                <a href="/post/about">关于</a>
-                            </li>
-                        
-                    
-                </ul>
-            </div>
-        </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
     </div>
-
-
-</header>
-
-
-  <div id="main" class="main" role="main">
-    <div id="loop-container" class="loop-container">
-      <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
         
-          <div class='featured-image lazy lazy-bg-image' data-background="https://shijiedenghuo.github.io/post-images/004.jpg">
-          </div>
+      
         
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      可以卑微如尘土  不可扭曲如蛆虫
+    </div>
+    <div class="site-footer">
+      唯有青春与梦想 不可辜负 | <a class="rss" href="https://backupadmin.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
-        <div class="entry-meta">
-          <span class="date">· 2019-05-23 ·</span> <span> / </span>
-          <span class="author">
-            <a href="https://shijiedenghuo.github.io" title="" rel="author"> 唯有青春与梦想 不可辜负</a>
-          </span>
-          
-            <span class="category">
-                    <span> / </span>
-                    <a href="https://shijiedenghuo.github.io/tag/2WJ1OtG4S">生活</a>
-                </span>
-          
-        </div>
-        <div class='entry-header'>
-          <h1 class='entry-title'>被施暴后，所有人都在劝我要大度</h1>
-        </div>
-        <div class="entry-container">
-          <div class="entry-content">
-            <article>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">被施暴后，所有人都在劝我要大度</h2>
+            <div class="post-date">2019-05-23</div>
+            
+              <div class="feature-container" style="background-image: url('https://backupadmin.github.io/post-images/sjdh.004.jpg')">
+              </div>
+            
+            <div class="post-content">
               <blockquote>
 <p>1</p>
 </blockquote>
 <p>昨天傍晚，我发了一条朋友圈，怼一个与我半生不熟的人：<br>
-<img src="https://shijiedenghuo.github.io/post-images/1565968228850.png" alt=""><br>
+<img src="https://backupadmin.github.io/post-images/1565968228850.png" alt=""><br>
 结果两分钟内就收到了母亲的消息：“要大度，大度再大度。”<br>
-<img src="https://shijiedenghuo.github.io/post-images/1565968240009.png" alt=""></p>
+<img src="https://backupadmin.github.io/post-images/1565968240009.png" alt=""></p>
 <p>我只回了一个：“嗯好”</p>
 <p>其实我的内心是：“<strong>凭什么不清楚前因后果就要求我大度宽容？凭什么不由分说就要求我包容一个惹我发怒的人？</strong>”</p>
 <p>当然了，因为对方是犹如头上神明的老妈，我只好附和其中，免得又是一场绵延几个小时的口水战。</p>
 <p>真实情况是，昨天一个与我半生不熟的朋友请我帮他改稿，当然了，对方是傍着我们认识了几天就不由分说地让我帮他修改。</p>
 <p>当时我正忙着其他事情，就说能不能等到晚上9点左右，结果他就炸了，说自己很着急，我们不是朋友嘛，帮帮忙嘛。</p>
 <p>然后我只好接过，把手头事放一边，花了半个多小时帮他修正了一下，结果迎来的不是一声谢谢，而是颐指气使般的吹毛求疵，又再度指出了之前我没有修改的几个不当之处，要求我继续修改。<br>
-<img src="https://shijiedenghuo.github.io/post-images/1565968369212.png" alt=""></p>
+<img src="https://backupadmin.github.io/post-images/1565968369212.png" alt=""></p>
 <p>我心想：“<strong>你特么这是知道自己的不当之处还让我改啊。</strong>”</p>
 <p>然后我就直接再见拉黑加朋友圈吐槽三连击，随后就引来了母亲的劝说：“<strong>你要大度大度再大度。</strong>”</p>
 <p>你瞧，中国式家庭教育就是这样，<strong>不由分说让你大度，根本不管前因后果，你必须大度包容，只有大度包容的孩子才是好孩子。</strong></p>
@@ -218,7 +176,7 @@
 <p>于是在凌晨两点，小玲的丈夫再度持起拳头，通过持续两个多小时的家暴，将刚刚从家暴中恢复的小玲家暴身亡。</p>
 <p>尸检报告显示，小玲因颅内硬膜出血致死，整个头都是肿的，已经面目全非，现场画面相当凄惨。</p>
 <p>事后丈夫投案自首，只留下一个6岁的儿子：<br>
-<img src="https://shijiedenghuo.github.io/post-images/1565968924144.png" alt=""></p>
+<img src="https://backupadmin.github.io/post-images/1565968924144.png" alt=""></p>
 <p>但除开死亡本身的悲哀，我们可以看到另外一个事实：<strong>小玲本是有机会躲开这次致死的家暴的，但在母亲的劝说下，在丈夫的求情中，她再度回到了这个让她丧命的家庭。</strong></p>
 <p>其实在所有致死的家暴案件中，<strong>受害者都会有数十次可以逃离死亡的机会</strong>，但是每次家暴过后，他们收到的不是让他们奋起反抗亦或者离开的鼓励，而是亲人或者邻里朋友这样的劝诫：“那是你丈夫（妻子）嘛，打是亲骂是爱，你就大度点嘛，还要过日子呢”</p>
 <p>甚至在中国很多地区，多数家暴事件即便报警，也不会受到严格处理，警方的第一反应也只是：“夫妻之间闹闹矛盾嘛，打是亲骂是爱，过几天就没事了，增进感情嘛”</p>
@@ -239,112 +197,54 @@
 <p>而是你人生路上荣耀的徽章，</p>
 <p><strong>闪耀着让那群道德卫士们自惭形秽的炙热光芒。</strong></p>
 
-            </article>
-          </div>
-          <div class='entry-meta-bottom'>
-            <div class="entry-categories">
-              <p>
-                <span>Categories</span>
-                
-                  
-                    
-                  <a href="https://shijiedenghuo.github.io/tag/K-wheF921" title="View all posts in 时评">时评</a>
-                    
-                    
-                    
-                  <a href="https://shijiedenghuo.github.io/tag/2WJ1OtG4S" title="View all posts in 生活">生活</a>
-                    
-                    
-              </p>
             </div>
-            <div class="entry-tags">
-              <p><span>Tags</span>
-              </p>
-            </div>
-          </div>
-          <div class="author-meta">
-            <div class="author">
-              <img alt='' src="https://shijiedenghuo.github.io/images/avatar.png?v=1565972501409" class='avatar avatar-72 photo' height='72' width='72'>
-              <span>WRITTEN BY: &nbsp;&nbsp;&nbsp;<a href='https://shijiedenghuo.github.io'>世界灯火</a> </span>
-            </div>
-            <div class="bio">
-              <p>即便是个小人物，当面对时代洪流，我也要发出最震撼人心的呐喊。</p>
-              
+            
+              <div class="tag-container">
                 
-              
+                  <a href="https://backupadmin.github.io/tag/2WJ1OtG4S" class="tag">
+                    生活
+                  </a>
                 
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            </div>
-          </div>
-        </div>
-          
-            <nav class="navigation pagination" role="navigation">
-              <h2 class="screen-reader-text">Posts navigation</h2>
-              <div class="nav-links">
-                <a class="next page-numbers" href="https://shijiedenghuo.github.io/post/005">下一篇->起底莆田系原罪：毒害完中国人后，移民计划悄然开展</a>
               </div>
-            </nav>
-          
-      </div>
-      <section id="comments" class="comments">
-        
-      </section>
-    </div>
-  </div>
-  <footer id="site-footer" class="site-footer" role="contentinfo">
-    <h1>
-        <a href="https://shijiedenghuo.github.io"> 永不熄灭的世界灯火 </a>
-    </h1>
-    <p class="site-description">可以卑微如尘土  不可扭曲如蛆虫</p>
-    <div id="menu-footer" class="menu-container menu-footer" role="navigation">
-        <div class="menu">
-            <ul id="menu-footer-items" class="menu-footer-items">
-            </ul>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://backupadmin.github.io/post/sjdh.005">
+                  <h3 class="post-title">
+                    起底莆田系原罪：毒害完中国人后，移民计划悄然开展
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
         </div>
+      </div>
     </div>
-    <ul class="social-media-icons">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    </ul>
-    <div class="design-credit">
-        <p>唯有青春与梦想 不可辜负</p>
-    </div>
-</footer>
-<script>
-    hljs.initHighlightingOnLoad()
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
-<script src="https://shijiedenghuo.github.io/media/scripts/lib/jquery.min.js"></script>
-<script src="https://shijiedenghuo.github.io/media/scripts/lib/jquerymigrate.js"></script>
-<script src="https://shijiedenghuo.github.io/media/scripts/lib/production.min.js"></script>
 
-</div>
-</body>
+
+
+
+  </body>
 </html>
-
